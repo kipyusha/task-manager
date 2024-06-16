@@ -1,0 +1,26 @@
+.custom-pre-wrap {
+    white-space: pre-wrap;
+  }
+
+.custom-img-width {
+    width: 500px;
+}
+
+.task-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .task-item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
